@@ -1,0 +1,8 @@
+---
+- name: this is to display a message
+  hosts: all
+
+  tasks:
+    - name: show message
+      debug:
+        msg: A play test message
