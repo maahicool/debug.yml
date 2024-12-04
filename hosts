@@ -1,0 +1,12 @@
+host5 manager=pankaj
+
+[webserver]
+host1
+host2
+
+[Messaging]
+host3
+host4
+
+[webserver:vars]
+ansible_connections=ssh
