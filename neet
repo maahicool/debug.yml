@@ -1,0 +1,8 @@
+---
+- name: this is to display things
+  hosts: all
+
+  tasks:
+    - name: Display
+      debug:
+        msg: what is your name
